@@ -120,9 +120,14 @@ Rspec tests are used for unit testing the app, and some integration testing. Cuc
 
 ## Linting
 
-`rake` will also run our linting: currently, only [Rubocop](https://github.com/bbatsov/rubocop).
+`rake` will also run our linting:
 
+### [Rubocop](https://github.com/bbatsov/rubocop)
 Rubocop checks for consistent style across the Ruby areas of the codebase.  We use a modified version of [Rubocop-Github](https://github.com/github/rubocop-github) to stay consistent with [SEC](https://github.com/EFForg/sec).
+
+### [Sass Lint] (https://github.com/sasstools/sass-lint)
+Sass-lint checks for consistent style across the stylesheets. Our
+.sass-lint file is derived from [SEC](https://github.com/EFForg/sec).
 
 ## Acknowledgements
 
